@@ -2,7 +2,7 @@ import React from 'react'
 
 function CreateResume() {
   return (
-    <div>CreateResume</div>
+    <div className='bg-re-500 w-full h-full' >CreateResume</div>
   )
 }
 
