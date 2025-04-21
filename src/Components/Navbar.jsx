@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Nav Links (hidden on mobile) */}
-            <div className="hidden md:flex space-x-8 text-gray-700 font-medium ">
+            <div className="hidden md:flex space-x-8 text-gray-800 font-medium ">
               <a
                 href="/dashboard"
                 className="hover:text-secondary transition-colors duration-300"
@@ -91,25 +91,25 @@ const Navbar = () => {
               <div className="flex flex-col">
                 <a
                   href="/dashboard"
-                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-white hover:text-secondary"
+                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-gray-800 border hover:text-secondary"
                 >
                   Create Resume
                 </a>
                 <a
                   href="/dashboard"
-                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-white hover:text-secondary"
+                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-gray-800 border hover:text-secondary"
                 >
                   Update Resume
                 </a>
                 <a
                   href="/dashboard"
-                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-white hover:text-secondary"
+                  className="block bg-third my-3 py-3 px-3 rounded-md text-base font-medium text-gray-800 border hover:text-secondary"
                 >
                   Dashboard
                 </a>
                 <a
                   href="/dashboard"
-                  className="block bg-primary my-3 py-3 px-3 rounded-md text-base font-medium text-white hover:text-secondary"
+                  className="block bg-primary my-3 py-3 px-3 rounded-md text-base font-medium text-gray-800 border hover:text-secondary"
                 >
                   Build My Resume
                 </a>
